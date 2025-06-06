@@ -238,11 +238,10 @@ body {
   }
 }
 @media (max-width: 600px) {
-  .social-links {
-        font-size: 0; /* yazıyı gizle */
-    flex-shrink: 0; /* sıkışmasını engelle */
-    -webkit-overflow-scrolling: touch;
+  .social-links a {
+    font-size: 0; /* Tüm metin görünmez */
     padding: 6px;
+    gap: 0; /* ikon ile yazı aralığını da sıfırla */
   }
 }
 @media (max-width: 600px) {
@@ -262,7 +261,8 @@ body {
     gap: 10px;
   }
    .social-links a i {
-    font-size: 18px;
+    font-size: 20px; /* ikonlar görünür olacak */
+    margin: 0;
   }
 }
 }

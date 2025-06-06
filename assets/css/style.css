@@ -239,9 +239,10 @@ body {
 }
 @media (max-width: 600px) {
   .social-links {
+        font-size: 0; /* yazıyı gizle */
     flex-shrink: 0; /* sıkışmasını engelle */
     -webkit-overflow-scrolling: touch;
-    padding-left: 8px;
+    padding: 6px;
   }
 }
 @media (max-width: 600px) {
@@ -260,4 +261,9 @@ body {
     max-width: 100%;
     gap: 10px;
   }
+   .social-links a i {
+    font-size: 18px;
+  }
 }
+}
+

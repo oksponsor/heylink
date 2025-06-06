@@ -19,7 +19,7 @@
   "cards": [
     {
       "icon": "assets/img/misty.png",
-      "title": "Misty Casino",
+      "title": "MİSTY CASİNO",
       "descriptions": [
         "%150 Bonus & 50 Free Spin",
         "Her Ay 84.000.000₺",
@@ -32,7 +32,7 @@
     },
     {
       "icon": "assets/img/focus.svg",
-      "title": "Focusbet",
+      "title": "FOCUSBET",
       "descriptions": [
         "İlk Yatırıma Özel Kazanç Sınırsız FS / Ekstra Freebet",
         "Her Gün Canlı Turnuvalar",
@@ -45,7 +45,7 @@
     },
     {
       "icon": "assets/img/tombet.png",
-      "title": "Tombet",
+      "title": "TOMBET",
       "descriptions": [
         "Sınırsız Çark Çevrim Şartı Yok – Çekim Limiti Yok!",
         "5000x Kazanca 5000x Çevrimsiz Ödül",
@@ -58,7 +58,7 @@
     },
 	{
       "icon": "assets/img/betosfer.gif",
-      "title": "betosfer",
+      "title": "BETOSFER",
       "descriptions": [
         "Her Gece 1000TL Değerinde Freespin!",
         "%30 Slot Yatırım Bonusu",
@@ -72,7 +72,7 @@
 
 		{
       "icon": "assets/img/olay.png",
-      "title": "Olay Casino",
+      "title": "OLAYCASİNO",
       "descriptions": [
         "%100 Nakit İade!",
         "500TL Yatırım Şartsız Deneme Bonusu",
@@ -85,7 +85,7 @@
     },
 		{
       "icon": "assets/img/marslogo.svg",
-      "title": "Marsbahis",
+      "title": "MARS BAHİS",
       "descriptions": [
         "Marsbahis'te şimdi Günlük Çekim limiti 100 milyon TL!",
         "Kripto Yatırımlarınıza %20 Bonus!",
@@ -98,7 +98,7 @@
     },
 		{
       "icon": "assets/img/betbigo.png",
-      "title": "Betbigo",
+      "title": "BETBİGO",
       "descriptions": [
         "333 Freebet/333 Freespin",
         "%30 Kayıp Bonusu",
@@ -111,7 +111,7 @@
     },
 	  {
       "icon": "assets/img/real.png",
-      "title": "Realbahis",
+      "title": "REALBAHİS",
       "descriptions": [
         "250₺ Free Bet/250 Freespin Deneme Bonusu",
         "%25 Kayıp Bonusu",

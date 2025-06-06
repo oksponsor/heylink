@@ -42,10 +42,13 @@ body {
   display: flex;
     scrollbar-width: none; /* Firefox için */
     overflow-x: auto; /* 🔥 Kaydırılabilir yap */
-    padding: 6px 0;
-  gap: 20px;
+  padding: 6px 0;
+  gap: 16px;
+    overflow-x: auto; /* 🔥 önemli */
+  scrollbar-width: none;
+
   white-space: nowrap;
-  max-width: 60vw;
+  max-width: 100%;
   justify-content: flex-end;
   align-items: center;
 }

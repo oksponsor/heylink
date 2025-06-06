@@ -49,7 +49,7 @@ body {
   gap: 6px;
   color: #ff4d4d;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 0; /* Yazıyı gizler */
   text-decoration: none;
   padding: 4px 8px;
   transition: color 0.3s ease;
@@ -58,6 +58,9 @@ body {
 
 .social-links a:hover {
   color: #fff;
+}
+.social-links a i {
+  font-size: 20px; /* İkonu görünür yapar */
 }
 
 .ad-section {

@@ -3,17 +3,17 @@
     {
       "href": "https://t.me/addlist/JEB-1VLcG6A4MGQ0",
       "icon": "fab fa-telegram-plane",
-      "text": null
+      "text": ""
     },
     {
       "href": "https://www.youtube.com/@carnival1sl",
       "icon": "fab fa-youtube",
-      "text": null
+      "text": ""
     },
     {
       "href": "https://instagram.com/seninstagram",
       "icon": "fab fa-instagram",
-      "text": null
+      "text": ""
     }
   ],
   "cards": [
@@ -56,7 +56,7 @@
       "linkText": "OK GÜVENCESİ",
       "linkHref": "https://t.me/addlist/JEB-1VLcG6A4MGQ0"
     },
-    {
+	{
       "icon": "assets/img/betosfer.gif",
       "title": "betosfer",
       "descriptions": [
@@ -69,7 +69,8 @@
       "linkText": "OK GÜVENCESİ",
       "linkHref": "https://t.me/addlist/JEB-1VLcG6A4MGQ0"
     },
-    {
+
+		{
       "icon": "assets/img/olay.png",
       "title": "Olay Casino",
       "descriptions": [
@@ -82,7 +83,7 @@
       "linkText": "OK GÜVENCESİ",
       "linkHref": "https://t.me/addlist/JEB-1VLcG6A4MGQ0"
     },
-    {
+		{
       "icon": "assets/img/marslogo.svg",
       "title": "Marsbahis",
       "descriptions": [
@@ -95,7 +96,7 @@
       "linkText": "OK GÜVENCESİ",
       "linkHref": "https://t.me/addlist/JEB-1VLcG6A4MGQ0"
     },
-    {
+		{
       "icon": "assets/img/betbigo.png",
       "title": "Betbigo",
       "descriptions": [
@@ -108,9 +109,9 @@
       "linkText": "OK GÜVENCESİ",
       "linkHref": "https://t.me/addlist/JEB-1VLcG6A4MGQ0"
     },
-    {
+	  	{
       "icon": "assets/img/real.png",
-      "title": "RealBahis",
+      "title": "RealBahis	",
       "descriptions": [
         "250₺ Free Bet/250 Free Spin Deneme Bonusu",
         "%25 Kayıp Bonusu",
@@ -120,6 +121,6 @@
       "btnHref": "https://realbahisguncelgiris.com/1R628FyQ",
       "linkText": "OK GÜVENCESİ",
       "linkHref": "https://t.me/addlist/JEB-1VLcG6A4MGQ0"
-    }
+    },
   ]
 }

@@ -38,22 +38,18 @@ body {
   object-fit: contain;
 }
 
-/* Sosyal Linkler */
 .social-links {
   display: flex;
-    scrollbar-width: none; /* Firefox için */
-    overflow-x: auto; /* 🔥 Kaydırılabilir yap */
+  scrollbar-width: none; /* Firefox için */
+  overflow-x: auto; /* 🔥 Kaydırılabilir yap */
   padding: 6px 0;
   gap: 16px;
-    overflow-x: auto; /* 🔥 önemli */
-  scrollbar-width: none;
-
   white-space: nowrap;
   max-width: 100%;
   justify-content: flex-end;
   align-items: center;
 }
-}
+
 .social-links::-webkit-scrollbar {
   display: none; /* Chrome & Safari scrollbar gizle */
 }

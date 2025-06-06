@@ -2,15 +2,18 @@
   "socialLinks": [
     {
       "href": "https://t.me/addlist/JEB-1VLcG6A4MGQ0",
-      "icon": "fab fa-telegram-plane"
+      "icon": "fab fa-telegram-plane",
+      "text": "Telegram"
     },
     {
       "href": "https://www.youtube.com/@carnival1sl",
-      "icon": "fab fa-youtube"
+      "icon": "fab fa-youtube",
+      "text": "YouTube"
     },
     {
       "href": "https://instagram.com/seninstagram",
-      "icon": "fab fa-instagram"
+      "icon": "fab fa-instagram",
+      "text": "Instagram"
     }
   ],
   "cards": [
@@ -53,7 +56,7 @@
       "linkText": "OK GÜVENCESİ",
       "linkHref": "https://t.me/addlist/JEB-1VLcG6A4MGQ0"
     },
-    {
+	{
       "icon": "assets/img/betosfer.gif",
       "title": "betosfer",
       "descriptions": [
@@ -66,7 +69,8 @@
       "linkText": "OK GÜVENCESİ",
       "linkHref": "https://t.me/addlist/JEB-1VLcG6A4MGQ0"
     },
-    {
+
+		{
       "icon": "assets/img/olay.png",
       "title": "Olay Casino",
       "descriptions": [
@@ -79,7 +83,7 @@
       "linkText": "OK GÜVENCESİ",
       "linkHref": "https://t.me/addlist/JEB-1VLcG6A4MGQ0"
     },
-    {
+		{
       "icon": "assets/img/marslogo.svg",
       "title": "Marsbahis",
       "descriptions": [
@@ -92,7 +96,7 @@
       "linkText": "OK GÜVENCESİ",
       "linkHref": "https://t.me/addlist/JEB-1VLcG6A4MGQ0"
     },
-    {
+		{
       "icon": "assets/img/betbigo.png",
       "title": "Betbigo",
       "descriptions": [

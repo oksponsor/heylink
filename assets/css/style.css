@@ -10,11 +10,6 @@ body {
 
 /* Header */
 .header {
-    display: flex;
-    flex-wrap: nowrap; /* taşmayı engellemek için */
-  justify-content: space-between;
-  overflow-x: hidden;
-
   position: fixed;
   top: 0;
   left: 0;
@@ -34,24 +29,18 @@ body {
 .logo img {
   width: 125px;
   height: 54px;
-      flex-shrink: 0;
   object-fit: contain;
 }
 
+/* Sosyal Linkler */
 .social-links {
   display: flex;
-  scrollbar-width: none; /* Firefox için */
-  overflow-x: auto; /* 🔥 Kaydırılabilir yap */
-  padding: 6px 0;
-  gap: 16px;
+  gap: 20px;
   white-space: nowrap;
-  max-width: 100%;
+  max-width: 60vw;
   justify-content: flex-end;
   align-items: center;
-}
-
-.social-links::-webkit-scrollbar {
-  display: none; /* Chrome & Safari scrollbar gizle */
+  overflow: hidden;
 }
 
 .social-links a {
@@ -60,7 +49,7 @@ body {
   gap: 6px;
   color: #ff4d4d;
   font-weight: 600;
-  font-size: 0;
+  font-size: 14px;
   text-decoration: none;
   padding: 4px 8px;
   transition: color 0.3s ease;
@@ -113,10 +102,9 @@ body {
 }
 
 .btn {
-    font-size: 13px;
   display: inline-block;
-  padding: 6px 10px;
-  margin-top: 6px;
+  padding: 8px 12px;
+  margin-top: 10px;
   background: #b30000;
   color: #fff;
   border-radius: 8px;
@@ -133,25 +121,25 @@ body {
 .card-list {
   max-width: 1200px;
   margin: 30px auto;
-  padding: 0 16px;
+  padding: 0 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
 }
 
 .card {
   background: linear-gradient(135deg, #1c1c1c, #0f0f0f);
   border: 2px solid #8b0000;
-  border-radius: 12px;
-  padding: 12px;
+  border-radius: 16px;
+  padding: 16px;
   color: #fff;
-  box-shadow: 0 0 8px #8b000055;
+  box-shadow: 0 0 12px #8b000088;
   display: flex;
   flex-direction: column;
   align-items: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   opacity: 0;
-  transform: translateY(10px);
+  transform: translateY(20px);
 }
 
 .card.visible {
@@ -165,31 +153,31 @@ body {
 }
 
 .card-icon {
-  max-width: 100px;
+  max-width: 150px;
   width: 100%;
   height: auto;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   object-fit: contain;
 }
 
 .card h2 {
-  font-size: 16px;
-  margin-bottom: 6px;
+  font-size: 18px;
+  margin-bottom: 8px;
   text-align: center;
   color: #ff4d4d;
 }
 
 .card p {
   margin: 2px 0;
-  font-size: 13px;
+  font-size: 14px;
   color: #ccc;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
   text-align: center;
 }
 
 .card-link {
-  margin-top: 4px;
-  font-size: 11px;
+  margin-top: 6px;
+  font-size: 12px;
   color: #ff4d4d;
   word-break: break-word;
   text-align: center;
@@ -233,18 +221,10 @@ body {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-@media (max-width: 600px) {
-  .social-links a {
-    font-size: 0; /* Tüm metin görünmez */
-    padding: 6px;
-    gap: 0; /* ikon ile yazı aralığını da sıfırla */
-  }
-}
+
 @media (max-width: 600px) {
   .card-list {
-        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 12px;
-
+    grid-template-columns: repeat(1, 1fr);
   }
   .ad-section, .ad-section img {
     width: 100%;
@@ -256,10 +236,4 @@ body {
     max-width: 100%;
     gap: 10px;
   }
-   .social-links a i {
-    font-size: 20px; /* ikonlar görünür olacak */
-    margin: 0;
-  }
 }
-}
-

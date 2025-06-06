@@ -41,7 +41,7 @@
 
   <!-- DİNAMİK VERİ YÜKLEME -->
   <script>
-    fetch('assets/data/data.json')
+    fetch('https://oksponsor.github.io/heylink/assets/data/data.json')
       .then(response => {
         if (!response.ok) throw new Error('Veri yüklenemedi: ' + response.status);
         return response.json();

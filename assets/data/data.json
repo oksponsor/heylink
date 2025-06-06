@@ -17,6 +17,19 @@
     }
   ],
   "cards": [
+	   {
+      "icon": "assets/img/focus.svg",
+      "title": "FOCUSBET",
+      "descriptions": [
+        "İlk Yatırıma Özel Kazanç Sınırsız FS / Ekstra Freebet",
+        "Her Gün Canlı Turnuvalar",
+        "7/24 Canlı Destek"
+      ],
+      "btnText": "Giriş Yap",
+      "btnHref": "https://cutt.ly/FcsCRV",
+      "linkText": "OK GÜVENCESİ",
+      "linkHref": "https://t.me/addlist/JEB-1VLcG6A4MGQ0"
+    },
     {
       "icon": "assets/img/misty.png",
       "title": "MİSTY CASİNO",
@@ -30,19 +43,7 @@
       "linkText": "OK GÜVENCESİ",
       "linkHref": "https://t.me/addlist/JEB-1VLcG6A4MGQ0"
     },
-    {
-      "icon": "assets/img/focus.svg",
-      "title": "FOCUSBET",
-      "descriptions": [
-        "İlk Yatırıma Özel Kazanç Sınırsız FS / Ekstra Freebet",
-        "Her Gün Canlı Turnuvalar",
-        "7/24 Canlı Destek"
-      ],
-      "btnText": "Giriş Yap",
-      "btnHref": "https://cutt.ly/FcsCRV",
-      "linkText": "OK GÜVENCESİ",
-      "linkHref": "https://t.me/addlist/JEB-1VLcG6A4MGQ0"
-    },
+   
     {
       "icon": "assets/img/tombet.png",
       "title": "TOMBET",

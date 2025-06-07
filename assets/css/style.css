@@ -143,8 +143,8 @@ body {
 
 /* Card Arkaplanına GIF Ekleme */
 .card {
-  position: relative; /* katmanlı yapı için */
-  background: rgba(0, 0, 0, 0.6); /* Yazı okunabilirliği için yarı saydam arka plan */
+  position: relative;
+  background: rgba(0, 0, 0, 0.6);
   border: 2px solid #8b0000;
   border-radius: 16px;
   padding: 16px;
@@ -157,17 +157,20 @@ body {
   opacity: 0;
   transform: translateY(20px);
   overflow: hidden;
+  backdrop-filter: blur(4px); /* Arka plan bulanıklığı (şık görünüm için) */
 }
+
 /* Arka Plan GIF Katmanı */
 .card::before {
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: url('https://github.com/oksponsor/heylink/blob/main/assets/img/headbackgr.gif?raw=true') center/cover no-repeat;
-  opacity: 0.15;
+  background: url('https://oksponsor.github.io/heylink/assets/img/headbackgr.gif') center/cover no-repeat;
+  opacity: 0.3; /* GÖRÜNÜRLÜĞÜ ARTIRILDI */
   z-index: -1;
   pointer-events: none;
   border-radius: 16px;
+  filter: brightness(1.2) contrast(1.1); /* GIF'i biraz daha canlı yapar */
 }
 
 .card.visible {

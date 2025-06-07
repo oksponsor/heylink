@@ -246,6 +246,29 @@ body {
 .footer-social a:hover {
   color: #fff;
 }
+@media (max-width: 600px) {
+  .card {
+    padding: 12px;
+    border-radius: 12px;
+    backdrop-filter: blur(3px);
+  }
+  .card::before {
+    opacity: 0.25; /* Mobilde biraz daha düşük görünürlük */
+    background-position: center;
+    background-size: cover;
+  }
+  .card h2 {
+    font-size: 16px;
+  }
+
+  .card p {
+    font-size: 13px;
+  }
+
+  .card-link {
+    font-size: 11px;
+  }
+
 
 @media (max-width: 1024px) {
   .card-list {

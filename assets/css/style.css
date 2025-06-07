@@ -163,7 +163,7 @@ body {
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: url('assets/img/headbackgr.gif') center/cover no-repeat;
+  background: url('https://github.com/oksponsor/heylink/blob/main/assets/img/headbackgr.gif?raw=true') center/cover no-repeat;
   opacity: 0.15;
   z-index: -1;
   pointer-events: none;

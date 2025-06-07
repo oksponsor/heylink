@@ -53,6 +53,54 @@ body {
   height: 54px;
   object-fit: contain;
 }
+.glass-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 40px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background: rgba(255, 0, 0, 0.08);
+  color: #fff;
+  z-index: 9999;
+  border-bottom: 2px solid #ff4d4d;
+  box-shadow: 0 4px 12px rgba(255, 77, 77, 0.25);
+  overflow: hidden;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.scroll-text {
+  white-space: nowrap;
+  animation: scroll-left 15s linear infinite;
+  font-size: 16px;
+  color: #ff4d4d;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.glass-banner:hover .scroll-text {
+  animation-play-state: paused;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 600px) {
+  .scroll-text {
+    font-size: 14px;
+  }
+  .glass-banner {
+    padding: 10px 20px;
+  }
 
 /* Sosyal Linkler */
 .social-links {

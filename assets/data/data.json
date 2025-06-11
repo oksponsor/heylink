@@ -17,8 +17,7 @@
     }
   ],
   "cards": [
-
-	    	{
+	  	  	{
       "icon": "assets/img/logo_big.gif",
       "title": "GRANDPASHABET",
       "descriptions": [
@@ -96,8 +95,6 @@
       "btnHref": "https://bit.ly/3xREoQa",
       "linkText": "OK GÜVENCESİ",
       "linkHref": "https://t.me/addlist/JEB-1VLcG6A4MGQ0"
-    }
-	
-		
+    }		
   ]
 }

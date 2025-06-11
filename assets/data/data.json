@@ -17,6 +17,20 @@
     }
   ],
   "cards": [
+
+	    	{
+      "icon": "assets/img/logo_big.gif",
+      "title": "GRANDPASHABET",
+      "descriptions": [
+        "500TL Deneme Bonusu",
+        "Hafta sonuna özel %40 slot bonusu",
+        "Haftalık %5 Kayıp Bonusu!"
+      ],
+      "btnText": "Giriş Yap",
+      "btnHref": "https://shorteleven.online/cxvbcx",
+      "linkText": "OK GÜVENCESİ",
+      "linkHref": "https://t.me/addlist/JEB-1VLcG6A4MGQ0"
+    },
 	   {
       "icon": "assets/img/focus.svg",
       "title": "FOCUSBET",
@@ -82,20 +96,8 @@
       "btnHref": "https://bit.ly/3xREoQa",
       "linkText": "OK GÜVENCESİ",
       "linkHref": "https://t.me/addlist/JEB-1VLcG6A4MGQ0"
-    },
-	  	{
-      "icon": "assets/img/logo_big.gif",
-      "title": "GRANDPASHABET",
-      "descriptions": [
-        "500TL Deneme Bonusu",
-        "Hafta sonuna özel %40 slot bonusu",
-        "Haftalık %5 Kayıp Bonusu!"
-      ],
-      "btnText": "Giriş Yap",
-      "btnHref": "https://shorteleven.online/cxvbcx",
-      "linkText": "OK GÜVENCESİ",
-      "linkHref": "https://t.me/addlist/JEB-1VLcG6A4MGQ0"
     }
+	
 		
   ]
 }
